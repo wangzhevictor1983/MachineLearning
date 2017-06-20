@@ -12,6 +12,7 @@ namespace LinearRegression
         private double[] _sourceYData;
         private double _xAverage;
         private double _yAverage;
+        private double _coefficent;
 
         public OneDimensionalLinearRegression()
         {
@@ -73,6 +74,28 @@ namespace LinearRegression
             }
         }
 
+        public double Coefficent
+        {
+            get
+            {
+                getCoefficent();
+                return _coefficent;
+            }
+
+        }
+        private void getCoefficent()
+        {
+            double sumA = 0;
+            double sumB = 0;
+            double sumAB = 0;
+            for (int i = 0; i < _sourceXData.Length; i++)
+            {
+                sumAB += (_sourceXData[i] - _xAverage) * (_sourceYData[i] - _yAverage);
+                sumA += (_sourceXData[i] - _xAverage) * (_sourceXData[i] - _xAverage);
+                sumB += (_sourceYData[i] - _yAverage) * (_sourceYData[i] - _yAverage);
+            }
+            _coefficent = sumAB / (Math.Sqrt(sumA) * Math.Sqrt(sumB));
+        }
         public void getLinearEquation(out double a, out double b)
         {
             a = 0;
@@ -87,6 +110,8 @@ namespace LinearRegression
             b = sumA / sumB;
             a = _yAverage - b * _xAverage;            
         }
+
+        
 
     }
 }

@@ -20,6 +20,7 @@ namespace MachineLearningTest
             clsA.getLinearEquation(out a, out b);
             Console.WriteLine("a={0}", a.ToString());
             Console.WriteLine("b={0}", b.ToString());
+            Console.WriteLine("r={0}", clsA.Coefficent.ToString());
             Console.ReadKey();
 
         }
