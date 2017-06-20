@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineLearningTest", "MachineLearningTest\MachineLearningTest.csproj", "{D7A93948-7DC8-4B6F-92C2-13780467B278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearRegression", "..\LinearRegression\LinearRegression.csproj", "{0AF051A8-7D82-4E8E-ACA0-B027288E6449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7A93948-7DC8-4B6F-92C2-13780467B278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A93948-7DC8-4B6F-92C2-13780467B278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A93948-7DC8-4B6F-92C2-13780467B278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A93948-7DC8-4B6F-92C2-13780467B278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF051A8-7D82-4E8E-ACA0-B027288E6449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF051A8-7D82-4E8E-ACA0-B027288E6449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF051A8-7D82-4E8E-ACA0-B027288E6449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF051A8-7D82-4E8E-ACA0-B027288E6449}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

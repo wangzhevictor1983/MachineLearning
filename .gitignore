@@ -3,3 +3,6 @@
 ################################################################################
 
 /LinearRegression/bin/Debug
+/LinearRegression/obj/Debug
+/MachineLearningTest/MachineLearningTest/bin/Debug
+/MachineLearningTest/MachineLearningTest/obj/Debug
