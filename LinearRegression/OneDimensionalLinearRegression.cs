@@ -14,6 +14,9 @@ namespace LinearRegression
         private double _yAverage;
         private double _coefficent;
 
+        private double _aResult;
+        private double _bResult;
+
         public OneDimensionalLinearRegression()
         {
 
@@ -107,11 +110,12 @@ namespace LinearRegression
                 sumA += (_sourceXData[i] - _xAverage) * (_sourceYData[i] - _yAverage);
                 sumB += (_sourceXData[i] - _xAverage) * (_sourceXData[i] - _xAverage);
             }
-            b = sumA / sumB;
-            a = _yAverage - b * _xAverage;            
+            a = sumA / sumB;
+            b = _yAverage - b * _xAverage;
+            _aResult = a;
+            _bResult = b;         
         }
-
-        
+   
 
     }
 }

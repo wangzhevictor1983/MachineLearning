@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineLearningTest", "Mach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearRegression", "..\LinearRegression\LinearRegression.csproj", "{0AF051A8-7D82-4E8E-ACA0-B027288E6449}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradientDescent", "..\GradientDescent\GradientDescent.csproj", "{603CF7F9-A9FD-470A-8E17-13B8E1C26680}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0AF051A8-7D82-4E8E-ACA0-B027288E6449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AF051A8-7D82-4E8E-ACA0-B027288E6449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AF051A8-7D82-4E8E-ACA0-B027288E6449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603CF7F9-A9FD-470A-8E17-13B8E1C26680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603CF7F9-A9FD-470A-8E17-13B8E1C26680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603CF7F9-A9FD-470A-8E17-13B8E1C26680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603CF7F9-A9FD-470A-8E17-13B8E1C26680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
